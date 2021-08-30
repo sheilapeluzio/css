@@ -6,7 +6,49 @@
     <title>CSS Selectors</title>
     <link rel="stylesheet" href="css/tag.css">
     <style>
-        /* ... */
+    /* Seletor universal */
+        /* * */
+
+        /* Seletor de classe */
+        /* .tag */
+
+        /* Seletor de id */
+        /* #aprovados */
+
+        /* Seletor '>': seleciona os filhos direto do primeiro elemento  */
+        /* #aninhado > div */
+
+        /* Qualquer descendente */
+        /* #aninhado section */
+
+        /* Irmão adjacente (em seguida) */
+        /* p + ul */
+
+        /* 'General siblings' */
+        /* p ~ ol */
+
+        /* Seletor propriedade */
+        /* [feira]  */
+
+        /* p ~ ol */
+        /* [feira=casa] */
+        /* [feira~=escritorio] */
+        /* [feira*=sa]  */
+
+        /* primeiro filho */
+        /* span:nth-child(1) */
+        
+        /* filhos ímpares */
+        /* section > :nth-child(odd){ */
+
+        /* selecionar vários elementos */
+        /* section > :nth-child(odd), ul */
+
+        /*  segundo elemento do tipo span dentro de uma section */
+        section > span:nth-of-type(2){
+            color: #ff0;
+            background-color: #f77;
+        }
     </style>
 </head>
 
